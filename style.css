@@ -1,28 +1,38 @@
 body, html {
-    height: 100%;
     margin: 0;
-}
-
-#gameArea {
-    width: 100%;
     height: 100%;
-    background-color: skyblue;
-    overflow: hidden;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
 }
 
-#bird {
-    width: 40px;
-    height: 30px;
-    background-color: yellow;
-    position: absolute;
-    border-radius: 50%;
+#kaleidoscope {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
 }
 
-#ground {
-    width: 100%;
-    height: 100px;
+/* Example designs (placeholders for actual designs) */
+.design-1 {
+    background-color: red;
+    /* Additional styling for design 1 */
+}
+
+.design-2 {
+    background-color: blue;
+    /* Additional styling for design 2 */
+}
+
+/* ... more designs ... */
+
+.design-10 {
     background-color: green;
+    /* Additional styling for design 10 */
+}
+
+.button-container {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
+    left: 10px;
 }
